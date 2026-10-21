@@ -22,20 +22,14 @@ A web application for keeping track of job applications in one place. It helps u
 
 ## Getting Started
 
-**1. Clone the repository**
 
-```bash
-git clone https://github.com/Ad862002/job-tracker-project.git
-cd job-tracker-project
-```
-
-**2. Install dependencies**
+**1. Install dependencies**
 
 ```bash
 npm install
 ```
 
-**3. Set up environment variables**
+**2. Set up environment variables**
 
 Create a `.env.local` file in the main project folder and add:
 
@@ -45,7 +39,7 @@ BETTER_AUTH_URL=http://localhost:3000
 BETTER_AUTH_SECRET=your_generated_secret
 ```
 
-**4. Run the application**
+**3. Run the application**
 
 ```bash
 npm run dev
@@ -60,10 +54,7 @@ Open `http://localhost:3000` in your browser.
 - `lib/` - Database, authentication, and application logic
 - `scripts/` - Sample data setup
 
-## Live Demo
 
-Coming soon.
 
-## Project Credit
 
 This project was set up and explored as part of my full-stack development learning, using [Pedro Machado's Job Application Tracker tutorial](https://youtu.be/vCIsrOGNhas) as a reference.
